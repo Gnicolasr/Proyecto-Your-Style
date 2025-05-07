@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Style</title>
+      <!-- metas seo -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="shortcut icon" href="./img/logo.ico" type="image/x-icon">
+</head>
+
+<body>
+  <!-- iniciando nav de bootstrap -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top bg-miNav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="img/logomarca.jpg" alt="el logo de la empresa" class="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Contacto
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Telefono 11111</a></li>
+              <li><a class="dropdown-item" href="#">Whatsapp</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="pages/ubicanos.html">Ubicanos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/servicios.html#mujer">Mujer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/servicios.html#varon">Hombre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/reservas.html">Reservas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/horario.html">Horario</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- finanlizando nav bootstrap -->
+  <header>
+    <!-- carrusel de bootstrap -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="1800">
+          <img src="img/inicio1.jpg" class="d-block w-80 imgCarrusel mx-auto" alt="Banner del salón de belleza tipo carrusel">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="img/inicio2.jpg" class="d-block w-80 imgCarrusel mx-auto" alt="Banner del salón de belleza tipo carrusel">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="img/inicio3.jpg" class="d-block w-80 imgCarrusel mx-auto" alt="Banner del salón de belleza tipo carrusel">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- fin del carrusel -->
+  </header>
+  <!-- añadiendo el sistema de grillas de bootstrap -->
+  <main class="px-3">
+    <h1 class="miTitulo">Salón de belleza Your Style</h1>
+    <p class="miTitulo">Bienvenidos</p>
+    <h3 class="subtitulo">Nuestros Servicios</h3>
+    <section class="container-fluid">
+      <div>
+        <img src="img/logomarca.jpg" alt="el logo de la empresa"><!--logo de mitad de pagina  -->
+      </div>
+      <div class="row">
+
+
+        <article class="col-sm-12 col-md-6 col-lg-3">
+          <img src="img/servicio2.jpg" alt="imagen de atención de un cliente en el servicio de regeneración de cutis" class="w-100 img-thumbnail">
+          <p>Corte de pelo</p>
+          <!-- <button class="btn btn-primary">Agenda tu cita </button> -->
+
+        </article>
+
+        <article class="col-sm-12 col-md-6 col-lg-3">
+          <img src="img/servicio3.jpg" alt="imagen de atención de un cliente en el servicio de Limpieza facial" class="w-100 img-thumbnail">
+          <p>Tintura</p>
+          <!-- <button class="btn btn-primary">Agenda tu cita </button> -->
+
+        </article>
+
+        <article class="col-sm-12 col-md-6 col-lg-3">
+          <img src="img/servicio4.jpg" alt="imagen de atención de un cliente en el servicio de tratamiento capilar" class="w-100 img-thumbnail">
+          <p>Barberia</p>
+          <!-- <button class="btn btn-primary">Agenda tu cita </button> -->
+
+        </article>
+
+        <article class="col-sm-12 col-md-6 col-lg-3">
+          <img src="img/servicio1.jpg" alt="imagen de atención de un cliente en el servicio de pedicura" class="w-100 img-thumbnail">
+          <p>Peinados</p>
+          <!-- <button class="btn btn-primary">Agenda tu cita </button> -->
+
+        </article>
+      
+<!--  -->
+    <!-- <div>
+      <img src="img/logomarca.jpg" alt="el logo de la empresa"><!--logo de mitad de pagina  -->
+  
+    <!-- <h3 class="subtitulo">Nuestros Productos</h3>
+    <section class="container-fluid">
+      <div class="row">
+        <article class="col-sm-12 col-md-6 col-lg-3">
+          <img src="img/producto1.jpg" alt="imagen de un frasco de la crema capilar" class="w-100 img-thumbnail">
+          <p>Crema capilar</p>
+          <button class="btn btn-primary">Solicite el Producto</button> -->
+
+        <!-- </article>
+
+        <article class="col-sm-12 col-md-6 col-lg-3">
+          <img src="img/producto2.jpg" alt="imagen de un frasco del Tinte para cabello" class="w-100 img-thumbnail">
+          <p>Tinte para cabello</p>
+          <button class="btn btn-primary">Solicite el Producto</button>
+
+        </article>
+
+        <article class="col-sm-12 col-md-6 col-lg-3">
+          <img src="img/producto3.jpg" alt="imagen de un frasco del Tinte para cabello de crema de rejuvenecimiento" class="w-100 img-thumbnail">
+          <p>Crema de rejuvenecimiento</p>
+          <button class="btn btn-primary">Solicite el Producto</button>
+
+        </article>
+
+        <article class="col-sm-12 col-md-6 col-lg-3">
+          <img src="img/producto4.jpg" alt="imagen de frascos de locion y perfume" class="w-100 img-thumbnail">
+          <p>Lociones y perfumes</p>
+          <button class="btn btn-primary">Solicite el Producto</button>
+
+        </article>
+      </div> -->
+
+  </main>
+  <!-- <footer>
+    <p>Cualquier </p>
+    <img src="img/facebook.png" alt="logo de facebook">
+    <img src="img/twitter.png" alt="logo de twitter">
+    <img
+      src="img/logo_whatsapp.jpg" alt="logo whatsapp">
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script> -->
+    <footer>
+      <p class="footer-info">Dirección: Av. Siempre Viva 123, Buenos Aires, Argentina</p>
+      <p class="footer-info">Teléfono: +54 11 1234-5678</p>
+  </footer>
+  
+</body>
+
+</html>
